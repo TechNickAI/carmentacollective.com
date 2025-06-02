@@ -1,0 +1,53 @@
+{
+    "cSpell.words": [
+        "Carmenta",
+        "ohai",
+        "Montserrat",
+        "technickai"
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#ffdf33",
+        "activityBar.background": "#ffdf33",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#009f86",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#ffdf33",
+        "statusBar.background": "#ffd700",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#ccac00",
+        "statusBarItem.remoteBackground": "#ffd700",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#ffd700",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#ffd70099",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#FFD700",
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.rulers": [120],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "files.associations": {
+        "*.mdc": "markdown"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.wordWrap": "on"
+    },
+    "window.title": "✨ Carmenta Collective - ${activeEditorShort}${dirty}"
+}
