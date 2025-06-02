@@ -3,21 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carmenta Collective - Family Office of Nick Sullivan</title>
+    <title>🌙 Carmenta Collective - Investment Collective</title>
     <meta
       name="description"
-      content="Carmenta Collective is the family office of Nick Sullivan, an Austin-based AI entrepreneur and technology leader. Learn more about Nick Sullivan AI initiatives." />
-    <meta
-      name="keywords"
-      content="Nick Sullivan, Nick Sullivan Austin, Nick Sullivan AI, Carmenta Collective, family office, technology investment, Austin entrepreneur" />
+      content="Carmenta Collective is an investment vehicle focused on transformative technology ventures. Strategic capital deployment from Austin, Texas." />
+    <meta name="keywords" content="Carmenta Collective, investment collective, technology investment, Austin" />
+    <meta name="robots" content="index, follow" />
 
     <!-- Open Graph / Social Media Tags -->
-    <meta property="og:title" content="Carmenta Collective - Nick Sullivan's Family Office" />
-    <meta
-      property="og:description"
-      content="Family office focused on AI, technology, and innovative ventures. Led by Nick Sullivan in Austin, Texas." />
+    <meta property="og:title" content="Carmenta Collective" />
+    <meta property="og:description" content="Investment vehicle for transformative technology ventures." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://carmentacollective.com" />
+
+    <!-- Schema.org markup for organization -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Carmenta Collective",
+        "url": "https://carmentacollective.com",
+        "description": "Investment vehicle focused on transformative technology ventures.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Austin",
+          "addressRegion": "TX"
+        }
+      }
+    </script>
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" />
@@ -73,7 +86,7 @@
 
       header {
         text-align: center;
-        padding: 4rem 0 2rem;
+        padding: 4rem 0 3rem;
       }
 
       .logo {
@@ -87,18 +100,9 @@
         font-size: 2.5rem;
         font-weight: 300;
         letter-spacing: 2px;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
         animation: fadeInUp 0.8s ease-out;
         color: var(--primary-color);
-      }
-
-      .tagline {
-        font-size: 1.2rem;
-        font-weight: 400;
-        color: var(--gray-medium);
-        margin-bottom: 3rem;
-        animation: fadeInUp 0.8s ease-out 0.2s;
-        animation-fill-mode: both;
       }
 
       .content {
@@ -194,6 +198,13 @@
         opacity: 0.8;
       }
 
+      .seo-note {
+        font-size: 0.9rem;
+        color: var(--gray-medium);
+        margin-top: 1rem;
+        font-style: italic;
+      }
+
       footer {
         text-align: center;
         padding: 2rem 0;
@@ -228,10 +239,6 @@
           font-size: 2rem;
         }
 
-        .tagline {
-          font-size: 1rem;
-        }
-
         .links {
           flex-direction: column;
         }
@@ -251,30 +258,31 @@
       <header>
         <img src="images/CarmentaCollective_Logo-11.png" alt="Carmenta Collective Logo" class="logo" />
         <h1>CARMENTA COLLECTIVE</h1>
-        <p class="tagline">Family Office of Nick Sullivan</p>
       </header>
 
       <main class="content">
         <p class="description">
-          Carmenta Collective is a family office focused on advancing technology and AI initiatives. Led by Nick
-          Sullivan, an Austin-based entrepreneur and technology leader, we invest in and support innovative ventures
-          that shape the future of artificial intelligence and human potential.
+          An investment vehicle where strategic capital meets transformative technology. Thoughtfully deploying
+          resources into ventures that shape tomorrow's landscape. Based in Austin, Texas.
         </p>
 
         <div class="links">
-          <a href="https://technick.ai/" target="_blank" rel="noopener noreferrer" class="link-card">
+          <a href="https://technick.ai/" target="_blank" rel="dofollow" class="link-card">
             <i class="fas fa-robot"></i>
-            <h3>TechNickAI</h3>
-            <p>Explore Nick Sullivan's AI initiatives and technology ventures</p>
+            <h3>Leadership & Vision</h3>
+            <p>Learn about our founder and AI initiatives at TechNickAI</p>
           </a>
         </div>
 
         <div class="contact">
-          <h2>Get in Touch</h2>
-          <p>For inquiries and opportunities:</p>
+          <h2>Contact</h2>
           <a href="mailto:ohai@carmentacollective.com" class="contact-email">
             <i class="fas fa-envelope"></i> ohai@carmentacollective.com
           </a>
+          <p class="seo-note">
+            For information about Nick Sullivan, AI leadership, or technology ventures, please visit
+            <a href="https://technick.ai/" style="color: var(--text-light)" rel="dofollow">TechNickAI</a>
+          </p>
         </div>
       </main>
 
