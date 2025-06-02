@@ -49,5 +49,5 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.wordWrap": "on"
     },
-    "window.title": "✨ Carmenta Collective - ${activeEditorShort}${dirty}"
+    "window.title": "🌙 Carmenta Collective - ${activeEditorShort}${dirty}"
 }
