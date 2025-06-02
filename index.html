@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carmenta Collective - Family Office of Nick Sullivan</title>
+    <meta
+      name="description"
+      content="Carmenta Collective is the family office of Nick Sullivan, an Austin-based AI entrepreneur and technology leader. Learn more about Nick Sullivan AI initiatives." />
+    <meta
+      name="keywords"
+      content="Nick Sullivan, Nick Sullivan Austin, Nick Sullivan AI, Carmenta Collective, family office, technology investment, Austin entrepreneur" />
+
+    <!-- Open Graph / Social Media Tags -->
+    <meta property="og:title" content="Carmenta Collective - Nick Sullivan's Family Office" />
+    <meta
+      property="og:description"
+      content="Family office focused on AI, technology, and innovative ventures. Led by Nick Sullivan in Austin, Texas." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://carmentacollective.com" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Google Fonts - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <style>
+      :root {
+        --primary-color: #ffffff;
+        --secondary-color: #f0f0f0;
+        --accent-color: #e94560;
+        --text-light: #e94560;
+        --white: #ffffff;
+        --dark-bg: #0a0a0a;
+        --darker-bg: #000000;
+        --gray-light: #333333;
+        --gray-medium: #999999;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.6;
+        color: var(--primary-color);
+        background: linear-gradient(135deg, #0a0a0a 0%, #000000 100%);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      header {
+        text-align: center;
+        padding: 4rem 0 2rem;
+      }
+
+      .logo {
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 2rem;
+        animation: fadeInDown 0.8s ease-out;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+        animation: fadeInUp 0.8s ease-out;
+        color: var(--primary-color);
+      }
+
+      .tagline {
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: var(--gray-medium);
+        margin-bottom: 3rem;
+        animation: fadeInUp 0.8s ease-out 0.2s;
+        animation-fill-mode: both;
+      }
+
+      .content {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem 0;
+      }
+
+      .description {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        color: var(--secondary-color);
+        margin-bottom: 3rem;
+        animation: fadeInUp 0.8s ease-out 0.4s;
+        animation-fill-mode: both;
+      }
+
+      .links {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 4rem;
+        animation: fadeInUp 0.8s ease-out 0.6s;
+        animation-fill-mode: both;
+      }
+
+      .link-card {
+        background: var(--gray-light);
+        padding: 2rem 3rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+        text-decoration: none;
+        color: var(--primary-color);
+        min-width: 280px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .link-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .link-card i {
+        font-size: 2.5rem;
+        color: var(--text-light);
+        margin-bottom: 1rem;
+        display: block;
+      }
+
+      .link-card h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      .link-card p {
+        font-size: 0.95rem;
+        color: var(--gray-medium);
+        font-weight: 400;
+      }
+
+      .contact {
+        background: var(--gray-light);
+        color: var(--white);
+        padding: 3rem 2rem;
+        border-radius: 10px;
+        margin: 2rem auto;
+        max-width: 600px;
+        animation: fadeInUp 0.8s ease-out 0.8s;
+        animation-fill-mode: both;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .contact h2 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+      }
+
+      .contact-email {
+        font-size: 1.2rem;
+        color: var(--text-light);
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+      }
+
+      .contact-email:hover {
+        opacity: 0.8;
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem 0;
+        color: var(--gray-medium);
+        font-size: 0.9rem;
+      }
+
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2rem;
+        }
+
+        .tagline {
+          font-size: 1rem;
+        }
+
+        .links {
+          flex-direction: column;
+        }
+
+        .link-card {
+          min-width: 100%;
+        }
+
+        .logo {
+          max-width: 250px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/CarmentaCollective_Logo-11.png" alt="Carmenta Collective Logo" class="logo" />
+        <h1>CARMENTA COLLECTIVE</h1>
+        <p class="tagline">Family Office of Nick Sullivan</p>
+      </header>
+
+      <main class="content">
+        <p class="description">
+          Carmenta Collective is a family office focused on advancing technology and AI initiatives. Led by Nick
+          Sullivan, an Austin-based entrepreneur and technology leader, we invest in and support innovative ventures
+          that shape the future of artificial intelligence and human potential.
+        </p>
+
+        <div class="links">
+          <a href="https://technick.ai/" target="_blank" rel="noopener noreferrer" class="link-card">
+            <i class="fas fa-robot"></i>
+            <h3>TechNickAI</h3>
+            <p>Explore Nick Sullivan's AI initiatives and technology ventures</p>
+          </a>
+        </div>
+
+        <div class="contact">
+          <h2>Get in Touch</h2>
+          <p>For inquiries and opportunities:</p>
+          <a href="mailto:ohai@carmentacollective.com" class="contact-email">
+            <i class="fas fa-envelope"></i> ohai@carmentacollective.com
+          </a>
+        </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 Carmenta Collective. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
